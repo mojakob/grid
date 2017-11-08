@@ -1,35 +1,102 @@
-* {margin: 0; padding: 0;}
+
 body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
+	margin-top: 0;
 }
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
-	
-	/* put css-rules in this ccs-block here below */
-	
+	font-size: 15px;
+    width: 720px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 h1{
 	background-color: rgba(0,32,0,0.4);
-	line-height: 40px;
-	
-	/* put css-rules in this ccs-block here below */
-	
+	line-height: 80px;
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 h2 {
-	line-height: 30px;
-	
-	/* put css-rules in this ccs-block here below */
-	
+	line-height: 50px;
+    border: 1px solid purple;
+    outline: thick ridge;
+    outline-style: solid;
+    outline-color: purple;
+    outline-width: 5px;
+    padding-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 663px;
 }
 
-p{
+#P1{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
-	
-	/* put css-rules in this ccs-block here below */
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 
+}
+.P2{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.P3{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 29px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.P4{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.P5{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 27px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }

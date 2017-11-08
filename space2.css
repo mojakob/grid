@@ -1,46 +1,96 @@
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
+			font-weight: bold;
 		}
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			margin: auto;
+			width: 1015px;
+			padding-top: 10px;
+			padding-bottom: 13px;
 		}
 		
 		header nav ul {
 			list-style-type: none;
-			background-color: rgba(255,255,200,0.3);
+    		background-color: rgba(255,255,200,0.3);
+    		font-size: 15px;
+    		margin-top: 0;
+    		margin-right: 10px;
+    		margin-bottom: 20px;
+    		margin-left: 10px;
+    		padding-left: 12px;
+    		padding-top: 13px;
+    		padding-bottom: 8px;
+		}
+
+		.head1 {
+			text-align: center;
+			font-weight: bold;
+			font-size: 32px;
+		}
+
+		h1 {
+			margin-top: 20px;
 		}
 		
 		#content {
+			display: flex;
+		}
+
+		p {
+			margin-top: 35px;
+			margin-bottom: 0px
+
+		}
+		
+		nav {
 			
 		}
 		
-		nav li {
-			
+		a {
+			color: black;
+    		font-family: Tahoma;
+    		padding-right: 5px;
+    		font-size: 19px;
+    		font-weight: bold;
+    		text-decoration: none;
 		}
 		
-		nav li a {
-		}
-		
-		main{
+		main {
 			border: 1px black solid;
-			background-color: rgba(200,200,255,0.3);
+    		background-color: rgba(200,200,255,0.3);
+    		width: 690px;
+    		margin-left: 10px;
+    		padding-bottom: 213px;
 		}
 		
-		aside{
+		aside {
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			margin-right: 10px;
+			width: 306px;
 		}
 		
 		body article {
 			background-color: rgba(200,200,200,0.6);
+			margin-top: 0;
+			margin-right: 10px;
+			margin-bottom: 0;
+			margin-left: 10px;
+			height: 80px;
 		}
-		
 		header {
+			padding-top: 0px;
 		}
+
 		
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-bottom: 10px;
 		}
 	
